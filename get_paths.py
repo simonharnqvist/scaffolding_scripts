@@ -1,5 +1,6 @@
 from pandas import read_csv
 from argparse import ArgumentParser
+from glob import *
 
 def get_paths(samples_file, assemblies_dir, scaffolds_dir):
     """Produce file paths of assembly and scaffold files"""
